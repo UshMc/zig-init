@@ -1,0 +1,11 @@
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+._*
+
+# Ignore zig-out folders anywhere in the repo
+zig-out/
+
+# Ignore zig cache folders anywhere in the repo
+.zig-cache/
+**/.zig-cache/
